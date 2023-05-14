@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.viewer{
+    width: 80vw;
+    max-height: 83vh;
+    margin: 5vh auto;
+    display: flex;
+    gap: 10%;
+    overflow-x: hidden;
+}
+.viewer .five{
+    width: 40%;
+    padding: 2vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+.viewer .five .card{
+    width:100% ;
+    height: 18%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(250, 238, 238, 0.5);
+    border: 1px solid black;
+}
+.viewer .five .card .info{
+    width: 45%;
+    font-size: 0.84rem;
+}
+.viewer .five .card img{
+    width: 45%;
+    
+}
+.dots{
+    display: flex;
+    width: 80vw;
+    justify-content: center;
+    gap: 5vw;
+    margin: auto;
+    margin-top: 25px;
+}
+.dots .view-screen{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    text-align: center;
+}
